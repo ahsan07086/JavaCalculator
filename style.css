@@ -1,0 +1,101 @@
+#calculator{
+    height: 471px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: hsl(0, 0%, 15%)
+}
+#display{
+    height: 82px;
+    width: 293px;
+    border: none;
+    border-radius: 6px;
+    padding: 2px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-size: 56px;
+}
+#keys{
+    height: 382px;
+    width: 300px;
+    margin-top: -18.9px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    
+}
+button{
+    height: 55px;
+    width: 55px;
+    margin-left: 15px;
+    margin-top: 8px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+#Plus{
+    background-color: rgb(243, 166, 23);
+    font-size: 30px;
+    font-family: monospace;
+    color: rgba(255, 254, 252, 0.962);
+    text-align: center;
+}
+#Plus:hover{
+    background-color: rgb(227, 180, 76);
+}
+#Minus{
+    background-color: rgb(243, 166, 23);
+    font-size: 30px;
+    font-family: monospace;
+    color: rgba(255, 254, 252, 0.962);
+    text-align: center;
+}
+#Minus:hover{
+    background-color: rgb(227, 180, 76);
+}
+#Multiply{
+    background-color: rgb(243, 166, 23);
+    font-size: 30px;
+    font-family: monospace;
+    color: rgba(255, 254, 252, 0.962);
+    text-align: center;
+}
+#Multiply:hover{
+    background-color: rgb(227, 180, 76);
+}
+#Divide{
+    background-color: rgb(243, 166, 23);
+    font-size: 30px;
+    font-family: monospace;
+    color: rgba(255, 254, 252, 0.962);
+    text-align: center;
+}
+#Divide:hover{
+    background-color: rgb(227, 180, 76);
+}
+#C{
+    background-color: rgb(243, 166, 23);
+    font-size: 30px;
+    font-family: monospace;
+    color: rgba(255, 254, 252, 0.962);
+    text-align: center;
+}
+#C:hover{
+    background-color: rgb(227, 180, 76);
+}
+#num{
+   background-color: rgb(75, 74, 72);
+   font-size: 30px;
+   font-family: monospace;
+   color: rgba(255, 254, 252, 0.962);
+   text-align: center; 
+}
+#num:hover{
+    background-color: rgb(48, 48, 48);
+}
